@@ -1,7 +1,6 @@
 package upc.edu.pe.worksolutionapi.entities;
 
 import jakarta.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "especialidades")
