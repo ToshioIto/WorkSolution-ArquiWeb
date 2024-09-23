@@ -5,7 +5,274 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28b7548-f449-4b99-87de-28a8df50bc32" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/WorkSolutionApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/CitaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/ConsultorioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/EspecialidadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/HorarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/JwtAuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/PrecioCitaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/SedeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/CitaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/ConsultorioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/DoctorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/EspecialidadDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/HorarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/PrecioCitaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/SedeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/dtos/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Cita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Consultorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Especialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Horario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/PrecioCita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Sede.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/entities/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/CitaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/ConsultorioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/EspecialidadRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/IDoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/IHorarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/IRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/PrecioCitaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/repositories/SedeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/securities/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/CitaServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/ConsultorioServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/DoctorServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/EspecialidadServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/HorarioServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/JwtUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/PrecioCitaServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/RoleServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/SedeServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/UserServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/CitaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/ConsultorioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/EspecialidadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/IDoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/IHorarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/PrecioCitaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/java/upc/edu/pe/worksolutionapi/services/SedeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/test/java/pe/edu/upc/worksolution/WorkSolutionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/src/test/java/upc/edu/pe/worksolutionapi/WorkSolutionApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/WorkSolutionApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/CitaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/ConsultorioController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/DoctorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/EspecialidadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/HorarioController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/JwtAuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/PrecioCitaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/SedeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/CitaDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/ConsultorioDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/DoctorDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/EspecialidadDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/HorarioDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/PrecioCitaDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/RoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/SedeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/dtos/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Cita.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Consultorio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Especialidad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Horario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/PrecioCita.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Sede.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/entities/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/CitaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/ConsultorioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/EspecialidadRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/IDoctorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/IHorarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/IRoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/IUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/PrecioCitaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/repositories/SedeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/JwtRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/JwtRequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/JwtResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/JwtTokenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/securities/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/CitaServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/ConsultorioServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/EspecialidadServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/JwtUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/PrecioCitaServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/RoleServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/SedeServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/UserServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/CitaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/ConsultorioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/EspecialidadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/IDoctorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/IHorarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/IRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/PrecioCitaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/services/SedeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/servicesimplements/DoctorServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/classes/upc/edu/pe/worksolutionapi/servicesimplements/HorarioServiceImplement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkSolutionAPI/target/test-classes/upc/edu/pe/worksolutionapi/WorkSolutionApiApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/WorkSolutionApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/CitaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/ConsultorioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/DoctorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/EspecialidadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/HorarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/JwtAuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/PrecioCitaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/SedeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/CitaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/ConsultorioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/DoctorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/EspecialidadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/HorarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/PrecioCitaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/RoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/SedeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/dtos/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Cita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Consultorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Especialidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Horario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/PrecioCita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Sede.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/entities/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/CitaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/ConsultorioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/EspecialidadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/IDoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/IHorarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/IRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/IUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/PrecioCitaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/repositories/SedeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/securities/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/CitaServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/ConsultorioServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/DoctorServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/EspecialidadServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/HorarioServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/JwtUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/PrecioCitaServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/RoleServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/SedeServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/serviceimplements/UserServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/CitaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/ConsultorioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/EspecialidadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/IDoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/IHorarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/PrecioCitaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upc/edu/pe/worksolutionapi/services/SedeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pe/edu/upc/worksolution/WorkSolutionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/upc/edu/pe/worksolutionapi/WorkSolutionApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/WorkSolutionApiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/CitaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/ConsultorioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/DoctorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/EspecialidadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/HorarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/JwtAuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/PrecioCitaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/SedeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/CitaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/ConsultorioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/DoctorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/EspecialidadDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/HorarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/PrecioCitaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/RoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/SedeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/dtos/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Cita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Consultorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Especialidad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Horario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/PrecioCita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Sede.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/entities/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/CitaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/ConsultorioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/EspecialidadRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/IDoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/IHorarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/IRoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/IUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/PrecioCitaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/repositories/SedeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/JwtRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/JwtRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/securities/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/CitaServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/ConsultorioServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/EspecialidadServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/JwtUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/PrecioCitaServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/RoleServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/SedeServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/serviceimplements/UserServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/CitaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/ConsultorioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/EspecialidadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/IDoctorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/IHorarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/PrecioCitaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/services/SedeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/servicesimplements/DoctorServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/upc/edu/pe/worksolutionapi/servicesimplements/HorarioServiceImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/upc/edu/pe/worksolutionapi/WorkSolutionApiApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +298,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2mS7XjEx52YWHLiaaFidp16nChx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -104,6 +375,7 @@
       <workItem from="1727062610285" duration="40000" />
       <workItem from="1727062664526" duration="4000" />
       <workItem from="1727062711283" duration="97000" />
+      <workItem from="1727063014021" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -128,6 +400,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
